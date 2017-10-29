@@ -1,0 +1,10 @@
+04:45:20 **** Incremental Build of configuration Release for project packing-2-levels ****
+make all 
+Building target: packing-2-levels
+Invoking: Cross G++ Linker
+g++ -L/opt/ILOG/CPLEX/cpoptimizer/lib/x86-64_linux/static_pic -L/opt/ILOG/CPLEX/cplex/lib/x86-64_linux/static_pic -L/opt/ILOG/CPLEX/concert/lib/x86-64_linux/static_pic -o "packing-2-levels"  ./src/cp25Packing.o ./src/packing.o   -lcp -lcplex -lconcert -lpthread -lm
+Finished building target: packing-2-levels
+ 
+
+04:45:25 Build Finished (took 4s.636ms)
+
